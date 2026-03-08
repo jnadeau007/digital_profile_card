@@ -1,16 +1,49 @@
-# React + Vite
+# Digital Profile Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive digital business card built with React and Vite. Showcases professional information, skills, interests, and contact links in a clean, modern design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Optimized for desktop and mobile.
+- **Modern UI**: Clean layout with Inter font and custom styling.
+- **Interactive Elements**: Social media links and resume download.
+- **Fast Performance**: Powered by Vite for quick builds and HMR.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React
+- **Build Tool**: Vite
+- **Styling**: CSS
+- **Font**: Inter (Google Fonts)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/jnadeau007/digital_profile_card.git
+   cd digital_profile_card
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the dev server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Deployment
+
+Deploy easily on platforms like Vercel, Netlify, or GitHub Pages.
+
+## Contributing
+
+Feel free to fork and submit PRs!
+
+## License
+
+MIT License
